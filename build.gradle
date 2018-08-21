@@ -1,0 +1,51 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+ext {
+    bintrayRepo = 'com.bm.bebasbayar'
+    bintrayName = 'embedded'
+
+    publishedGroupId = 'com.bm.bebasbayar'
+    libraryName = 'embedded'
+    artifact = 'embedded'
+
+    libraryDescription = 'BebasBayar Embedded Services.'
+
+    siteUrl = 'https://github.com/namikazebadri/BBEmbedded'
+    gitUrl = 'https://github.com/namikazebadri/BBEmbedded.git'
+
+    libraryVersion = '0.1.0'
+
+    developerId = 'namikazebadri'
+    developerName = 'Unis Badri'
+    developerEmail = 'namikaze.badri@gmail.com'
+    licenseName = 'The MIT License'
+    licenseUrl = 'https://raw.githubusercontent.com/namikazebadri/BBEmbedded/master/LICENSE'
+    allLicenses = ["MIT"]
+}
+
+buildscript {
+    ext.gradleVersion = "3.1.3"
+    ext.kotlin_version = '1.2.41'
+    ext.bintrayVersion = "1.4"
+    ext.mavenVersion = "1.4.1"
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradleVersion"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:$bintrayVersion"
+        classpath "com.github.dcendents:android-maven-gradle-plugin:$mavenVersion"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

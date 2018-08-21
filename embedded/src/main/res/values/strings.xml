@@ -1,0 +1,4 @@
+<resources>
+    <string name="progress_text_zero" formatted="false">0%</string>
+    <string name="progress_text" formatted="false">%1$s%%</string>
+</resources>
