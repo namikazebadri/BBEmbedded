@@ -14,13 +14,13 @@ implementation 'com.bm.bebasbayar:embedded:0.1.0'
 For Java:
 
 ```java
-BBEmbedded.show(JavaImplementationActivity.this, new EmbedParameters("APIKEY", "1", true), new PartnerSecurityParameters("PARTNERSECURITYKEY"));
+BBEmbedded.show(context, new EmbedParameters("APIKEY", "1", true), new PartnerSecurityParameters("PARTNERSECURITYKEY"));
 ```
 
 For Kotlin:
 
 ```kotlin
-BBEmbedded.show(this, EmbedParameters("APIKEY", "1", true), PartnerSecurityParameters("PARTNERSECURITYKEY"))
+BBEmbedded.show(context, EmbedParameters("APIKEY", "1", true), PartnerSecurityParameters("PARTNERSECURITYKEY"))
 ```
 
 # About Parameters
