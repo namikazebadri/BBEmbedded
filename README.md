@@ -15,7 +15,7 @@ For Java:
 
 ```java
 EmbedParameters embedParameters = new EmbedParameters();
-embedParameters.setApiKey("APIKEY"); //API Key from BebasBayar
+embedParameters.setApiKey("APIKEY"); // API Key from BebasBayar
 embedParameters.setPartnerUserId("1"); // Partner internal user id
 embedParameters.setDevelopment(true); // if set to true then does not require both valid APIKEY and PARTNERSECURITYKEY.
 
@@ -29,7 +29,7 @@ For Kotlin:
 
 ```kotlin
 val embedParameters = EmbedParameters();
-embedParameters.apiKey = "APIKEY" //API Key from BebasBayar
+embedParameters.apiKey = "APIKEY" // API Key from BebasBayar
 embedParameters.partnerUserId = "1" // Partner internal user id
 embedParameters.isDevelopment = true // if set true then does not require both valid APIKEY and PARTNERSECURITYKEY.
 
@@ -52,6 +52,6 @@ For Kotlin:
 ```kotlin
 BBEmbedded.show(context, EmbedParameters("APIKEY", "1", true), PartnerSecurityParameters("PARTNERSECURITYKEY"))
 ```
-*Be careful though, one line mehod call is indeed more compact and simpler, but sometimes make your code less readable for your fellow programmer*
+*&ast;Be careful though, one line mehod call is indeed more compact and simpler, but sometimes make your code less readable for your fellow programmer*
 
 # About Parameters
