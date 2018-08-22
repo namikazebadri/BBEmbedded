@@ -52,6 +52,6 @@ For Kotlin:
 ```kotlin
 BBEmbedded.show(context, EmbedParameters("APIKEY", "1", true), PartnerSecurityParameters("PARTNERSECURITYKEY"))
 ```
-*&ast;Be careful though, one line mehod call is indeed more compact and simpler, but sometimes make your code less readable for your fellow programmer*
+*&ast;Be careful though, one line method call is indeed more compact and simpler, but sometimes make your code less readable for your fellow programmers.*
 
 # About Parameters
