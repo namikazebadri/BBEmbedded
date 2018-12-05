@@ -24,7 +24,7 @@ embedParameters.setUserFullName(VENDOR_USER_LOGGED_FULLNAME);
 embedParameters.setClientId(VENDOR_CLIENT_ID);
 
 PartnerSecurityParameters partnerSecurityParameters = new PartnerSecurityParameters();
-partnerSecurityParameters.setSignature("PARTNERSECURITYKEY");
+partnerSecurityParameters.setSignature(PARTNERSECURITYKEY);
 
 BBEmbedded.show(context, embedParameters, partnerSecurityParameters);
 ```
@@ -42,7 +42,7 @@ embedParameters.userFullName = VENDOR_USER_LOGGED_FULLNAME;
 embedParameters.clientId = VENDOR_CLIENT_ID;
 
 val partnerSecurityParameters = PartnerSecurityParameters()
-partnerSecurityParameters.signature = "PARTNERSECURITYKEY"
+partnerSecurityParameters.signature = PARTNERSECURITYKEY
 
 BBEmbedded.show(context, embedParameters, partnerSecurityParameters)
 ```
