@@ -6,7 +6,7 @@ BebasBayar embeddable service.
 *Note: Always use the latest version of this library if possible to get recent update.*
 
 ```gradle
-implementation 'com.bm.bebasbayar:embedded:0.1.1'
+implementation 'com.bm.bebasbayar:embedded:0.3.2'
 ```
 
 # Usage
