@@ -23,6 +23,6 @@ public class AppWebViewClient extends WebViewClient {
             view.loadUrl(url);
         }
 
-        return true;
+        return false;
     }
 }

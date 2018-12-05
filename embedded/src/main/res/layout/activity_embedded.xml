@@ -10,26 +10,43 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone" />
-    <FrameLayout
+    <LinearLayout
         android:id="@+id/progressBarContainer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="15dp"
         android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:orientation="vertical">
-        <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyle"
-            android:layout_gravity="center"
-            android:layout_width="65dp"
-            android:indeterminateDrawable="@drawable/progress_bar"
-            android:layout_height="65dp" />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_gravity="center"
+                android:layout_width="65dp"
+                android:indeterminateDrawable="@drawable/progress_bar"
+                android:layout_height="65dp" />
+            <TextView
+                android:id="@+id/progressBarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_gravity="center"
+                android:text="@string/bb_embed_progress_text_zero"/>
+        </FrameLayout>
         <TextView
-            android:id="@+id/progressBarText"
+            android:id="@+id/titleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="13sp"
+            android:textStyle="italic"
+            android:lineSpacingMultiplier="1.2"
             android:layout_gravity="center"
-            android:text="@string/progress_text_zero"/>
-    </FrameLayout>
+            android:gravity="center_horizontal"
+            android:text="@string/bb_embed_wait_text"/>
+    </LinearLayout>
 </FrameLayout>

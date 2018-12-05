@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BBEmbedded</string>
+
+    <string name="bb_embed_wait_text">Mohon tunggu sedang memuat layanan...</string>
 </resources>

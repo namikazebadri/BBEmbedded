@@ -1,4 +1,11 @@
 <resources>
-    <string name="progress_text_zero" formatted="false">0%</string>
-    <string name="progress_text" formatted="false">%1$s%%</string>
+    <string name="bb_embed_custom_payment_title">Info</string>
+    <string name="bb_embed_custom_payment_button">Ok</string>
+    <string name="bb_embed_custom_alert_title">Perhatian</string>
+    <string name="bb_embed_custom_alert_button">Ok</string>
+    <string name="bb_embed_progress_text_zero" formatted="false">0%</string>
+    <string name="bb_embed_progress_text" formatted="false">%1$s%%</string>
+    <string name="bb_embed_wait_text">Memuat layanan pembayaran <b>Tagihan</b> dan \npembelian <b>Tiket Pesawat/Kereta Api...</b></string>
+    <string name="bb_embed_payment_wait_text">Memuat channel pembayaran...</string>
+    <string name="bb_embed_open_link_wait_text">Memuat data...</string>
 </resources>

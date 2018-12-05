@@ -17,7 +17,7 @@ class KotlinImplementationActivity : AppCompatActivity() {
         val openEmbedded = findViewById<Button>(R.id.openEmbedded)
 
         openEmbedded.setOnClickListener {
-            BBEmbedded.show(this, EmbedParameters("APIKEY", "1", true), PartnerSecurityParameters("PARTNERSECURITYKEY"))
+            BBEmbedded.show(this, EmbedParameters("2b9329b62ad269a611a2488658f93fab", "1", true, "uzumaki.unis@gmail.com", "085655141001", "Unis Badri", "BPJSTKAPP"), PartnerSecurityParameters("6806b1dc789b3359f4c9c9fa9c3d0e6b"))
         }
 
         supportActionBar!!.title = "Kotlin Example"

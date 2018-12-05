@@ -25,7 +25,7 @@ public class JavaImplementationActivity extends AppCompatActivity {
         openEmbedded.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                BBEmbedded.show(JavaImplementationActivity.this, new EmbedParameters("APIKEY", "1", true), new PartnerSecurityParameters("PARTNERSECURITYKEY"));
+                BBEmbedded.show(JavaImplementationActivity.this, new EmbedParameters("2b9329b62ad269a611a2488658f93fab", "1", true, "uzumaki.unis@gmail.com", "085655141001", "Unis Badri", "BPJSTKAPP"), new PartnerSecurityParameters("6806b1dc789b3359f4c9c9fa9c3d0e6b"));
             }
         });
     }

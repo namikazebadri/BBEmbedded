@@ -7,12 +7,12 @@ ext {
     libraryName = 'embedded'
     artifact = 'embedded'
 
-    libraryDescription = 'BebasBayar Embedded Services.'
+    libraryDescription = 'BebasBayar Embedded Services
 
     siteUrl = 'https://github.com/namikazebadri/BBEmbedded'
     gitUrl = 'https://github.com/namikazebadri/BBEmbedded.git'
 
-    libraryVersion = '0.1.0'
+    libraryVersion = '0.3.2'
 
     developerId = 'namikazebadri'
     developerName = 'Unis Badri'
@@ -32,7 +32,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:$gradleVersion"
+        classpath "com.android.tools.build:gradle:3.2.0"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:$bintrayVersion"
         classpath "com.github.dcendents:android-maven-gradle-plugin:$mavenVersion"
